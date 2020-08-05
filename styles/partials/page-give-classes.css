@@ -111,7 +111,7 @@
     #page-give-classes main fieldset {
         padding: 0 64px;
     }
-
+ 
     .schedule-item {
         display: grid;
         grid-template-columns: 2fr 1fr 1fr;

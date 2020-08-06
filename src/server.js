@@ -3,6 +3,6 @@ require('express')()
     return res.send("Hello world!")
 })
 .get("/study",(req, res) => {
-    return res.send("Página study")
+    return res.send("study")
 })
 .listen(5500)

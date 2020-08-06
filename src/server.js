@@ -1,8 +1,5 @@
 require('express')()
 .get("/",(req, res) => {
-    return res.send("Hello world!")
-})
-.get("/study",(req, res) => {
-    return res.send("study")
+    return res.sendFile(__dirname + "/views/index.html")
 })
 .listen(5500)

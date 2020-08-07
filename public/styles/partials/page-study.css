@@ -116,7 +116,7 @@
     margin-left: 1.6rem;
 }
 
-.teacher-item footer button:hover {
+.teacher-item footer .button:hover {
     background-color: var(--color-secondary-dark);
 }
 

@@ -29,6 +29,6 @@ function getSubject(subjectNumber) {
 
 module.exports = {
     subjects,
-    weekday,
+    weekdays,
     getSubject
 }

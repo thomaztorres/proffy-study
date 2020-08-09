@@ -32,7 +32,7 @@ The design of the entire project was developed by @Rocketseat.
 git clone https://github.com/thomaztorres/proffy-study
 
 # Enter the directory
-cd proffy-discovery
+cd proffy-study
 
 # Download dependencies
 npm i

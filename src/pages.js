@@ -1,6 +1,6 @@
+const Database = require('./database/db')
+
 const { subjects, weekdays, getSubject, convertHoursToMinutes} = require('./utils/format')
-const database = require('./database/db')
-const Database = require('sqlite-async')
 
 function pageLanding(req, res) {
     return res.render("index.html")
@@ -35,7 +35,7 @@ async function pageStudy(req, res) {
     try {
         const db = await Database
         const proffys = await db.all(query)
-
+        
         return res.render("study.html", {proffys, subjects, filters, weekdays})
     } catch (error) {
         console.log(error)

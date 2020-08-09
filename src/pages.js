@@ -35,7 +35,7 @@ async function pageStudy(req, res) {
     try {
         const db = await Database
         const proffys = await db.all(query)
-        
+
         return res.render("study.html", {proffys, subjects, filters, weekdays})
     } catch (error) {
         console.log(error)
@@ -47,7 +47,7 @@ function pageGiveClasses(req, res) {
 
     const isNotEmpty = Object.keys(data).length > 0
     //se tiver dados
-    if(isNotEmpty != "") {
+    if(isNotEmpty) {
         data.subject = getSubject(data.subject)
         //adicionar dados a lista de proffys
         proffys.push(data)

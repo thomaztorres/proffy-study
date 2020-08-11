@@ -34,8 +34,8 @@ git clone https://github.com/thomaztorres/proffy-study
 # Enter the directory
 cd proffy-study
 
-# Download dependencies
-npm i
+# Download sqlite3
+npm install sqlite3
 
 # Run the server
 npm run dev

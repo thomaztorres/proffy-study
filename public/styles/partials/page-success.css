@@ -1,0 +1,14 @@
+body {
+    background-color: var(--color-primary);
+    background-image: url(../../images/success-background.svg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+.box-success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-title-in-primary);
+    font-size: 5rem;
+}

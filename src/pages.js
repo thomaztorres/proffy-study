@@ -90,10 +90,7 @@ async function saveClasses(req, res) {
 }
 
 function pageSuccess(req, res) {
-    const delay = 5000
-    return res.render("success-page.html", setTimeout(() => {
-        res.redirect("/study")
-    }, delay))
+    return res.render("success-page.html") 
 }
 
 module.exports = {

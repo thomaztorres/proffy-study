@@ -6,8 +6,11 @@ function cloneField() {
     const fields = newFieldContainer.querySelectorAll('input')
 
     fields.forEach((field) => {
-        field.value = ""
-    })
+        if (field.value == "") {
 
-    document.querySelector("#schedule-items").appendChild(newFieldContainer)
+        } else {
+            field.value = ""
+            document.querySelector("#schedule-items").appendChild(newFieldContainer)
+        }
+    })
 }

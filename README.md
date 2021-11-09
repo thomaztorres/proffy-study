@@ -40,7 +40,7 @@ npm install sqlite3
 # Run the server
 npm run dev
 ```
-After this, acess you browser and type http://localhost:5500/
+After this, acess you browser and type http://localhost:3000/
 
 &nbsp;
 Developed with 💙 by Thomaz Torres
